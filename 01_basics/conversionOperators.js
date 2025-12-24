@@ -1,9 +1,9 @@
-let score = "33abc"
+//let score = "33abc"
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber= Number(score)
+// let valueInNumber= Number(score)
 
 //console.log(typeof valueInNumber );
 //console.log(valueInNumber);
@@ -18,11 +18,36 @@ let valueInNumber= Number(score)
 // "" => false 
 //"Deepak" => True
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber);
+// let someNumber = 33
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
 
 
 
+
+// Stack(premitive)  Heap(non-premitive)
+
+let myYoutubeName = "DeepakKumar"
+
+let anothername= myYoutubeName
+anothername ="Deepakmaurya"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+//Heap
+
+let userOne = {
+    userEmail:"deepak143449@gmail.com"
+    
+}
+
+let userTwo= {
+    email: "deepakmaurya44@gmail.com"
+    
+}
+
+console.log(userOne);
+console.log(userTwo);
 
 
